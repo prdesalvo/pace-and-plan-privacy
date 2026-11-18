@@ -4,7 +4,7 @@ title: Privacy Policy
 
 # Privacy Policy for Pace and Plan
 
-_Last updated: October 4, 2026_
+_Last updated: November 18, 2026_
 
 Pace and Plan is built so that your training belongs to you. The developer does not collect, store, sell, or share any of your information, and cannot see your workouts, plans, or notes.
 
@@ -27,14 +27,14 @@ With your permission, Pace and Plan reads from Apple Health to explain your trai
 
 - Workouts, including running, cycling, swimming, and strength workouts, with their routes, distance, pace, power, cadence, and stroke counts
 - Workout effort ratings and active energy
-- Heart rate, heart-rate variability, resting heart rate, and VO₂ max
-- Running form metrics such as running speed and power
+- Heart rate, heart-rate recovery, heart-rate variability, resting heart rate, body mass and VO₂ max
+- Step counts and running form metrics such as stride length, ground contact time and vertical oscillation
 - Sleep, respiratory rate, sleeping wrist temperature, and breathing disturbances
 - State of Mind
 
-With your permission, Pace and Plan writes to Apple Health the strength workouts you record, the effort ratings you choose, and how a workout felt as a State of Mind, so Apple Fitness and Training Load can count them.
+With your permission, Pace and Plan writes to Apple Health the runs and strength workouts you log, distance and active energy you provide, the effort ratings you choose, and how a workout felt as a State of Mind, so Apple Fitness and Training Load can count them.
 
-Health data is read and analyzed on your device. It is never sent to the developer or to any third party, and it is never used for advertising. You can change what Pace and Plan may read or write at any time in **Settings › Health › Data Access & Devices › Pace and Plan**.
+Pace and Plan reads Apple Health on your device. It uses the readings to calculate your training statistics. The developer cannot access these readings. Private iCloud sync and optional Apple Intelligence processing are described below. You can change what Pace and Plan may read or write at any time in **Settings › Health › Data Access & Devices › Pace and Plan**.
 
 ## Data Stored by Pace and Plan
 
@@ -42,17 +42,27 @@ Depending on the features you use, Pace and Plan stores on your device:
 
 - Training plans and planned workouts
 - Strength templates, lifts, sets, and rest settings
-- Workout notes and reflections
-- A summary of the workouts it read from Apple Health, so analysis is fast and available offline
+- Workout notes, reflections, injuries and check-ins
+- Training conversations and written insights
+- Imported workout summaries, heart-rate traces and daily recovery readings for offline analysis
 - Your goals and settings
 
 ## Private iCloud Sync
 
-When you are signed in to iCloud, Pace and Plan syncs this data through your private iCloud database so it is available on your iPhone, iPad, and Mac. Your synced content is stored by Apple in your iCloud account. It is not stored on a developer-operated server and is not accessible to the developer. Apple's handling of iCloud data is governed by Apple's terms and privacy policies.
+Starting with version 1.1.2, Pace and Plan uses iCloud to sync your workout plans, exercise library, reusable strength templates and their schedules through your private iCloud account. This includes the names you give plans and templates, dates, and planned targets such as miles, reps and weights. Apple Health readings, completed workouts, notes, injuries, saved conversations and original text imported from workout notes stay on the device where you use them. You choose separately on each device whether to allow Apple Intelligence to use Private Cloud Compute. The developer cannot access your private iCloud records.
 
-## On-Device Intelligence
+Earlier TestFlight versions also synced workout history, notes and imported health readings to the tester’s private iCloud account.
 
-Pace and Plan uses Apple Intelligence, when it is available, to write weekly readouts and plan summaries and to read plans and workouts you paste into the app. This runs on your device. Pace and Plan does not send your training data to the developer or to a third-party AI provider.
+## Apple Intelligence
+
+On supported devices, Pace and Plan uses Apple Intelligence to read workout notes, answer training questions and write summaries. Weekly recaps run on your device.
+
+The You tab offers two optional Private Cloud Compute settings on supported devices. Both start off and apply to the device where you enable them.
+
+- **Workout Imports** lets Pace and Plan send the text of a workout note to Apple’s Private Cloud Compute to interpret it.
+- **Insights and Chat** lets Pace and Plan send relevant saved workout summaries, recovery readings, plans, notes and conversation context to Apple’s Private Cloud Compute for training insights, race comparisons and chat. Opening an insight or a race comparison can generate a new answer when the underlying data changes.
+
+Apple processes those requests without retaining their contents. You can turn off either setting in the You tab. [Apple’s Private Cloud Compute privacy information](https://support.apple.com/guide/iphone/iphe3f499e0e/ios)
 
 ## Apple Services
 
@@ -69,6 +79,7 @@ Requests to these services are handled by Apple under [Apple's Privacy Policy](h
 Pace and Plan asks for access to device features only when you use the related feature:
 
 - **Apple Health:** Read and save workouts and health data, as described above.
+- **Microphone:** Record a workout note or training question when you choose dictation. Transcription runs on the device. The resulting text follows the processing choices above.
 - **Alarms:** Sound an alarm when a rest between sets ends, even on Silent or in a Focus. Off until you turn it on in Settings.
 - **Notifications:** Let you know when a rest between sets ends.
 
@@ -80,7 +91,7 @@ If you use Shortcuts, Siri, Spotlight, widgets, or Live Activities, the details 
 
 ## Retention and Deletion
 
-Your data remains on your device and in your private iCloud account until you delete it. Deletions sync through iCloud. Workouts Pace and Plan saved to Apple Health stay in Apple Health until you delete them there.
+You can delete records in Pace and Plan. For synced records, deletions propagate through your private iCloud account. You can also review and delete workouts and measurements in Apple Health.
 
 Uninstalling Pace and Plan removes its data from that device but not from your iCloud account. To remove the iCloud copy, open Settings, tap your name, then iCloud › Manage Account Storage › Pace and Plan.
 

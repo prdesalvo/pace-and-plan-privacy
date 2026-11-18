@@ -20,7 +20,7 @@ When reporting a problem, please include your device model, operating-system ver
 
 ### Apple Health
 
-Pace and Plan reads your workouts from Apple Health. If runs or charts are missing, open **Settings › Health › Data Access & Devices › Pace and Plan** and make sure reading is turned on for workouts and heart rate. New workouts arrive shortly after they finish on your Apple Watch.
+Pace and Plan reads your workouts from Apple Health. If runs or charts are missing, open **Settings › Health › Data Access & Devices › Pace and Plan** and make sure reading is turned on for workouts and heart rate. To enter a run yourself, open **Calendar › Add (+) › Log a Run**.
 
 ### Threshold Pace and Zones
 
@@ -38,17 +38,17 @@ Start a template from the Strength tab, log your sets, and finish. The workout i
 
 Rest alarms sound when a rest ends, even on Silent or in a Focus. Turn them on in Pace and Plan's Settings, and allow alarms when asked.
 
-### Written Summaries
+### Apple Intelligence
 
-Weekly readouts and plan summaries are written on your device by Apple Intelligence. They need a device that supports Apple Intelligence, with it turned on in **Settings › Apple Intelligence & Siri** and the model finished downloading. Without it, the same numbers show without the written summary.
+Turn on Apple Intelligence in **Settings › Apple Intelligence & Siri** on a supported device and allow its model to download. Weekly recaps run on your device. In the **You** tab you can enable Apple’s Private Cloud Compute separately for **Workout Imports** and **Insights and Chat**. With both options off, you can still plan workouts, log lifts and view training numbers.
 
 ### iCloud
 
-Pace and Plan syncs your plans, lifts, and notes through iCloud. Sign in to iCloud on each device with the same Apple Account. Changes can take a minute to arrive on another device.
+With version 1.1.2 or later, sign in with the same Apple Account on each device to see your planned dates and targets, exercises, reusable templates, and schedules. Your completed workouts, health readings, and personal notes stay on the device where you saved them.
 
 ### On the Mac
 
-Apple Health is not available on the Mac, so the Mac app shows your plan, lifts, and notes from iCloud. Run analysis lives on iPhone and iPad.
+On the Mac, open **Calendar › Add (+) › Plan One Day** to plan a workout, or **Strength › New Template (+)** to build a strength routine. Apple Health import is available on iPhone and iPad.
 
 ## Privacy
 
