@@ -26,3 +26,14 @@ Use the product URL as the Marketing URL on the next editable iOS and Mac
 version localizations. Privacy and support keep their existing URLs.
 
 No analytics, external fonts, JavaScript dependencies or build step.
+
+## Deeper iPhone Trends screenshots, November 18, 2026
+
+Replaced the website's iPad image with three native iPhone captures: Recovery,
+Training load, and Strength progression / Muscle balance. Each image opens full size.
+Captured on iPhone 18 Pro Max, iOS 27.0, from the installed demo app 1.1.1 (62),
+launched with `--screenshot-store --demo-data`. All three are unaltered 1320 × 2868
+JPEG screenshots with synthetic sample data. Binary SHA-256:
+`fc4dbcd448fa2431d1ff205ab0e4b7c3a8356385ada4d69a519942eca30165a7`.
+These captures are also added to the editable 1.1.2 iPhone screenshot set.
+The iPad screenshot set in App Store Connect remains separate.
