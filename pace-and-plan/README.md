@@ -37,3 +37,20 @@ JPEG screenshots with synthetic sample data. Binary SHA-256:
 `fc4dbcd448fa2431d1ff205ab0e4b7c3a8356385ada4d69a519942eca30165a7`.
 These captures are also added to the editable 1.1.2 iPhone screenshot set.
 The iPad screenshot set in App Store Connect remains separate.
+
+## Core running and metrics chat, November 18, 2026
+
+Lead with weekly mileage and individual runs, the easy/hard heart-rate split,
+and weekly speed work. Metrics chat has its own main section. Recovery and
+strength screenshots follow these core views. The hero and share artwork now
+show weekly mileage. New unaltered iPhone 18 Pro Max captures use the same
+isolated screenshot store and sample data described above.
+
+Intended iPhone listing order: Calendar, Weekly mileage, Heart-rate zones,
+Speed work, Metrics chat, Trends overview, Strength, Recovery, Training load,
+Strength trends. iOS 1.1.2 was already Waiting for Review when these core
+assets were prepared; screenshot changes require returning it to an editable
+state, then resubmitting. Do not withdraw a submission without Paul's approval.
+
+The chat capture shows the actual question-entry screen. Apple Intelligence was
+unavailable in the simulator, so no generated conversation is pictured.
